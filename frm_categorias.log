@@ -1,0 +1,8 @@
+Line 62: Class ACTIVESKINLibCtl.SkinLabel of control SkinLabel1 was not a loaded control class.
+Line 70: Class ACTIVESKINLibCtl.Skin of control Skin1 was not a loaded control class.
+Line 75: Class ACTIVESKINLibCtl.SkinLabel of control SkinLabel2 was not a loaded control class.
+Line 83: Class ACTIVESKINLibCtl.SkinLabel of control SkinLabel3 was not a loaded control class.
+Line 65: The property name OleObjectBlob in SkinLabel1 is invalid.
+Line 72: The property name OleObjectBlob in Skin1 is invalid.
+Line 78: The property name OleObjectBlob in SkinLabel2 is invalid.
+Line 86: The property name OleObjectBlob in SkinLabel3 is invalid.

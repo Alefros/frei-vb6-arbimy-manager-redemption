@@ -1,0 +1,1 @@
+FileCopy CommonDialog1.FileName, App.Path & "\IMAGENS\" & imagem

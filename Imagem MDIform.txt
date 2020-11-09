@@ -1,0 +1,21 @@
+Picture1.Cls
+            MDIForm1.Picture = LoadPicture("")
+            Picture1.Visible = True
+            Picture1.AutoRedraw = True
+            Picture1.BackColor = &H8000000C
+            Picture1.Height = Me.Height
+            
+            'Para centralizar a imagem no fundo
+            
+            Image1.Top = Picture1.Height / 2 - Image1.Height / 2
+            Image1.Left = Picture1.Width / 2 - Image1.Width / 2
+            
+            'ou expandir a imagem por todo o fundo
+            Image1.Stretch = True
+            Image1.Top = 0
+            Image1.Left = 0
+            Image1.Height = Picture1.Height
+            Image1.Width = Picture1.Width
+            Picture1.PaintPicture Image1, Image1.Left, Image1.Top, Image1.Width, Image1.Height
+            MDIForm1.Picture = Picture1.Image
+            Picture1.Visible = False
